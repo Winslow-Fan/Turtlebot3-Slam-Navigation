@@ -1,0 +1,1 @@
+/home/winslow/catkin_ws/devel/.private/com2009_assignment2/share/com2009_assignment2/cmake/com2009_assignment2Config-version.cmake

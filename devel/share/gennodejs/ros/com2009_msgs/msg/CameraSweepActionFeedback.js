@@ -1,0 +1,1 @@
+/home/winslow/catkin_ws/devel/.private/com2009_msgs/share/gennodejs/ros/com2009_msgs/msg/CameraSweepActionFeedback.js

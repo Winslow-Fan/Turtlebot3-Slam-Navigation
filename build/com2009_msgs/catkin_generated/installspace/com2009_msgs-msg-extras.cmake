@@ -1,0 +1,2 @@
+set(com2009_msgs_MESSAGE_FILES "msg/NumpyInt32Array.msg;msg/NumpyFloat32Array.msg;msg/CameraSweepAction.msg;msg/CameraSweepActionGoal.msg;msg/CameraSweepActionResult.msg;msg/CameraSweepActionFeedback.msg;msg/CameraSweepGoal.msg;msg/CameraSweepResult.msg;msg/CameraSweepFeedback.msg;msg/SearchAction.msg;msg/SearchActionGoal.msg;msg/SearchActionResult.msg;msg/SearchActionFeedback.msg;msg/SearchGoal.msg;msg/SearchResult.msg;msg/SearchFeedback.msg")
+set(com2009_msgs_SERVICE_FILES "srv/SetBool.srv;srv/TimedMovement.srv;srv/Approach.srv")

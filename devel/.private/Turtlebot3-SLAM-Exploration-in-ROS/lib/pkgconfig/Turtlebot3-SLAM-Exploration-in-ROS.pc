@@ -1,0 +1,8 @@
+prefix=/home/winslow/catkin_ws/devel/.private/Turtlebot3-SLAM-Exploration-in-ROS
+
+Name: Turtlebot3-SLAM-Exploration-in-ROS
+Description: Description of Turtlebot3-SLAM-Exploration-in-ROS
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

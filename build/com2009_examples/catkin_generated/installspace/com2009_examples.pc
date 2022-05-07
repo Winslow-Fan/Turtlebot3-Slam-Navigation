@@ -1,0 +1,8 @@
+prefix=/home/winslow/catkin_ws/install
+
+Name: com2009_examples
+Description: Description of com2009_examples
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

@@ -1,0 +1,5 @@
+COM2009/com2009_examples
+/home/winslow/catkin_ws/devel/.private/com2009_examples/cmake.lock /home/winslow/catkin_ws/devel/./cmake.lock
+/home/winslow/catkin_ws/devel/.private/com2009_examples/share/com2009_examples/cmake/com2009_examplesConfig.cmake /home/winslow/catkin_ws/devel/share/com2009_examples/cmake/com2009_examplesConfig.cmake
+/home/winslow/catkin_ws/devel/.private/com2009_examples/share/com2009_examples/cmake/com2009_examplesConfig-version.cmake /home/winslow/catkin_ws/devel/share/com2009_examples/cmake/com2009_examplesConfig-version.cmake
+/home/winslow/catkin_ws/devel/.private/com2009_examples/lib/pkgconfig/com2009_examples.pc /home/winslow/catkin_ws/devel/lib/pkgconfig/com2009_examples.pc

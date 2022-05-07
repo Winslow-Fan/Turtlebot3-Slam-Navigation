@@ -1,0 +1,5 @@
+COM2009/com2009_assignment2
+/home/winslow/catkin_ws/devel/.private/com2009_assignment2/cmake.lock /home/winslow/catkin_ws/devel/./cmake.lock
+/home/winslow/catkin_ws/devel/.private/com2009_assignment2/share/com2009_assignment2/cmake/com2009_assignment2Config.cmake /home/winslow/catkin_ws/devel/share/com2009_assignment2/cmake/com2009_assignment2Config.cmake
+/home/winslow/catkin_ws/devel/.private/com2009_assignment2/share/com2009_assignment2/cmake/com2009_assignment2Config-version.cmake /home/winslow/catkin_ws/devel/share/com2009_assignment2/cmake/com2009_assignment2Config-version.cmake
+/home/winslow/catkin_ws/devel/.private/com2009_assignment2/lib/pkgconfig/com2009_assignment2.pc /home/winslow/catkin_ws/devel/lib/pkgconfig/com2009_assignment2.pc
