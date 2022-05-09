@@ -12,10 +12,12 @@ class MoveBaseSquare():
     def __init__(self):
         rospy.init_node('nav_test', anonymous=False)
         
-        rospy.on_shutdown(self.shutdown)
+        self.ctrl_c = False
+        rospy.on_shutdown(self.shutdownhook)
+
         
         # How big is the square we want the robot to navigate?
-        square_size = rospy.get_param("~square_size", 1.15) # meters
+        square_size = rospy.get_param("~square_size", 1.2) # meters
         
         # Create a list to hold the target quaternions (orientations)
         quaternions = list()
@@ -34,14 +36,13 @@ class MoveBaseSquare():
         
         # Append each of the four waypoints to the list.  Each waypoint
         # is a pose consisting of a position and orientation in the map frame.
-        waypoints.append(Pose(Point(0.0, 0.0, 0.0), quaternions[0]))
-        waypoints.append(Pose(Point(0.0, -square_size, 0.0), quaternions[1]))
+        # waypoints.append(Pose(Point(0.0, square_size, 0.0), quaternions[1]))
         waypoints.append(Pose(Point(-square_size, -square_size, 0.0), quaternions[2]))
-        waypoints.append(Pose(Point(-square_size, 0.0, 0.0), quaternions[3]))
+        # waypoints.append(Pose(Point(-square_size, 0.0, 0.0), quaternions[3]))
         waypoints.append(Pose(Point(-square_size, square_size, 0.0), quaternions[4]))
-        waypoints.append(Pose(Point(0.0, square_size, 0.0), quaternions[5]))
+        # waypoints.append(Pose(Point(0.0, square_size, 0.0), quaternions[5]))
         waypoints.append(Pose(Point(square_size, square_size, 0.0), quaternions[6]))
-        waypoints.append(Pose(Point(square_size, 0.0, 0.0), quaternions[7]))
+        # waypoints.append(Pose(Point(square_size, 0.0, 0.0), quaternions[7]))
         waypoints.append(Pose(Point(square_size, -square_size, 0.0), quaternions[8]))
         # waypoints.append(Pose(Point(-square_size, square_size, 0.0), quaternions[3]))
         
@@ -72,7 +73,7 @@ class MoveBaseSquare():
         i = 0
         
         # Cycle through the four waypoints
-        while i < 9 and not rospy.is_shutdown():
+        while i < len(waypoints) and not rospy.is_shutdown():
             # Update the marker display
             self.marker_pub.publish(self.markers)
             
@@ -87,6 +88,7 @@ class MoveBaseSquare():
             
             # Set the goal pose to the i-th waypoint
             goal.target_pose.pose = waypoints[i]
+            rospy.loginfo(f"{waypoints[i]}")
             
             # Start the robot moving toward the goal
             self.move(goal)
@@ -96,7 +98,7 @@ class MoveBaseSquare():
     def move(self, goal):
             # Send the goal pose to the MoveBaseAction server
             self.move_base.send_goal(goal)
-            
+            # rospy.loginfo(f"{waypoints[i]}")
             # Allow 1 minute to get there
             finished_within_time = self.move_base.wait_for_result(rospy.Duration(30)) 
             
@@ -139,7 +141,7 @@ class MoveBaseSquare():
         self.markers.header.stamp = rospy.Time.now()
         self.markers.points = list()
 
-    def shutdown(self):
+    def shutdownhook(self):
         rospy.loginfo("Stopping the robot...")
         # Cancel any active goals
         self.move_base.cancel_goal()
@@ -147,8 +149,10 @@ class MoveBaseSquare():
         # Stop the robot
         self.cmd_vel_pub.publish(Twist())
         rospy.sleep(1)
+        self.ctrl_c = True
 
 if __name__ == '__main__':
+    # while 
     try:
         MoveBaseSquare()
     except rospy.ROSInterruptException:
