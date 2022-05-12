@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/winslow/catkin_ws/devel/.private/acs6121_team13/setup.sh
