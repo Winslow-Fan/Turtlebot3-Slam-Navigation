@@ -1,8 +1,0 @@
-<launch>
-    <include file="$(find real_robot)/launch/real_slam.launch" />
-    <node pkg="real_robot" type="moving.py" name="moving"/>
-
-    <!-- <include file="$(find turtlebot3_slam)/launch/turtlebot3_slam.launch" />
-    <include file="$(find turtlebot3_)/launch/turtlebot3_launch.launch" /> -->
-    <!-- <node pkg="turtlebot3_teleop" name="turtlebot3_teleop_key" type="turtlebot3_teleop_key" output="screen"/> -->
-</launch>
