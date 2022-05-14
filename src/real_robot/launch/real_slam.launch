@@ -21,11 +21,11 @@
         <param name="map_frame" value="map" /> <!--地图坐标系-->
     </include>
 
+    <!-- <include file="$(find turtlebot3_navigation)/launch/amcl.launch"/> -->
+
     <node pkg="joint_state_publisher" name="joint_state_publisher" type="joint_state_publisher" />
     <!-- <node pkg="robot_state_publisher" name="robot_state_publisher" type="robot_state_publisher" /> -->
     <group if="$(arg open_rviz)"> 
-    <!-- <node pkg="rviz" type="rviz" name="rviz" required="true"
-        args="-d $(find turtlebot3_slam)/rviz/turtlebot3_$(arg slam_methods).rviz"/> -->
         <node pkg="rviz" type="rviz" name="rviz" required="true"
             args="-d $(find turtlebot3_navigation)/rviz/turtlebot3_navigation.rviz"/>
     </group>
@@ -36,5 +36,9 @@
         <arg name="model" value="$(arg model)" />
         <arg name="move_forward_only" value="$(arg move_forward_only)"/>
     </include>
-    <node pkg="real_robot" type="moving.py" name="moving" output="screen"/>
+    <!-- <node pkg="real_robot" type="moving.py" name="moving" output="screen"/> -->
+
+    <arg name="filename" value="$(find real_robot)/maps/explore" />
+    <node name="map_save" pkg="map_server" type="map_saver" args="-f $(arg filename)" />
+
 </launch>

@@ -8,11 +8,19 @@ First, to launch the simulation environment, run:
 roslaunch acs6121 arena.launch
 ```
 
+You can use the model rotation button in gazebo to adjust the yaw angle of the arena world
+
 Then, to launch other nodes, run:
 ```
 roslaunch real_robot real_slam.launch
 ```
 
+To let it move, run:
+```
+rosrun real_robot moving.py
+```
+
+
 **Not complete yet**
 
-The map saving function are requested to be added!!!
+For experiment and monitoring output, the moving.py has not been embedded into the launch file yet.
