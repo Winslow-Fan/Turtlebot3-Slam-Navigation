@@ -9,7 +9,7 @@ from visualization_msgs.msg import Marker
 from math import radians, pi
 from nav_msgs.msg import Odometry
 from tf.transformations import euler_from_quaternion
-from math import sqrt, pow, pi
+from math import sqrt, pow, pi, cos, sin
 
 class MoveBaseSquare():
     def callback_function(self, odom_data):
@@ -33,6 +33,9 @@ class MoveBaseSquare():
             self.start_up = False
 
     def __init__(self):
+        self.x0 = 0
+        self.y0 = 0
+        self.theta_z0 = 0
         self.start_up = True
         # self.sub = rospy.Subscriber('odom_describer', Odometry, self.callback_function)
         self.sub = rospy.Subscriber('odom', Odometry, self.callback_function)
@@ -48,7 +51,8 @@ class MoveBaseSquare():
         quaternions = list()
         
         # First define the corner orientations as Euler angles
-        euler_angles = (self.theta_z0+1.6,self.theta_z0+1.6, self.theta_z0+3, self.theta_z0, self.theta_z0, 0, 0, 0, 0)
+        euler_angles = list()
+        euler_angles = [self.theta_z0+1.6,self.theta_z0+1.6, self.theta_z0+3, self.theta_z0, self.theta_z0, 0, 0, 0, 0]
         for i, angle in enumerate(euler_angles):
             if angle > pi:
                 euler_angles[i] -= 2*pi
@@ -67,11 +71,12 @@ class MoveBaseSquare():
         
         # Append each of the four waypoints to the list.  Each waypoint
         # is a pose consisting of a position and orientation in the map frame.
-        self.waypoints.append(Pose(Point(self.x0-1, self.y0, 0), quaternions[0]))
-        self.waypoints.append(Pose(Point(self.x0-1, self.y0-1, 0), quaternions[1]))
-        self.waypoints.append(Pose(Point(self.x0+1, self.y0-1, 0), quaternions[2]))
-        self.waypoints.append(Pose(Point(self.x0+1, self.y0+1, 0), quaternions[3]))
-        self.waypoints.append(Pose(Point(self.x0-1, self.y0+1, 0), quaternions[4]))
+
+        self.waypoints.append(Pose(Point(self.x0+cos(self.theta_z0), self.y0+sin(self.theta_z0), 0), quaternions[0]))
+        self.waypoints.append(Pose(Point(self.x0+cos(self.theta_z0)-sin(self.theta_z0), self.y0+sin(self.theta_z0)+cos(self.theta_z0), 0), quaternions[1]))
+        self.waypoints.append(Pose(Point(self.x0-cos(self.theta_z0)-sin(self.theta_z0), self.y0-sin(self.theta_z0)+cos(self.theta_z0), 0), quaternions[2]))
+        self.waypoints.append(Pose(Point(self.x0-cos(self.theta_z0)+sin(self.theta_z0), self.y0-sin(self.theta_z0)-cos(self.theta_z0), 0), quaternions[3]))
+        self.waypoints.append(Pose(Point(self.x0+cos(self.theta_z0)+sin(self.theta_z0), self.y0+sin(self.theta_z0)-cos(self.theta_z0), 0), quaternions[4]))
 
         
         # Initialize the visualization markers for RViz
@@ -326,4 +331,3 @@ if __name__ == '__main__':
 #         rospy.loginfo("Navigation test finished.")
 #!/usr/bin/env python
 # moveBaseSquare.py
-
