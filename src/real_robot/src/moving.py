@@ -10,6 +10,9 @@ from math import radians, pi
 from nav_msgs.msg import Odometry
 from tf.transformations import euler_from_quaternion
 from math import sqrt, pow, pi, cos, sin
+import argparse
+from save import MapSave
+
 
 class MoveBaseSquare():
     def callback_function(self, odom_data):
@@ -33,6 +36,17 @@ class MoveBaseSquare():
             self.start_up = False
 
     def __init__(self):
+        # parser = argparse.ArgumentParser()
+        # parser.add_argument('--map_dir', type=str, default='/home/student/catkin_ws/src/team13/maps/', help='The dir of saved map')
+        # self.arg = parser.parse_args()
+
+        # self.map_dir = self.arg.map_dir
+        print(rospy.has_param('/mapdir'))
+        self.map_dir = rospy.get_param('mapdir')
+
+        self.map_name = 'explore'
+
+
         self.x0 = 0
         self.y0 = 0
         self.theta_z0 = 0
@@ -182,6 +196,8 @@ class MoveBaseSquare():
         rospy.sleep(2)
         # Stop the robot
         self.cmd_vel_pub.publish(Twist())
+        # Save map
+        MapSave(self.map_dir, self.map_name)
         rospy.sleep(1)
         self.ctrl_c = True
 

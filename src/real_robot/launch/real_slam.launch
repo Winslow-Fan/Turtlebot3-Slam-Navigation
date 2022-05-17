@@ -36,9 +36,10 @@
         <arg name="model" value="$(arg model)" />
         <arg name="move_forward_only" value="$(arg move_forward_only)"/>
     </include>
-    <!-- <node pkg="real_robot" type="moving.py" name="moving" output="screen"/> -->
 
     <arg name="filename" value="$(find real_robot)/maps/explore" />
-    <node name="map_save" pkg="map_server" type="map_saver" args="-f $(arg filename)" />
-
+    <arg name="map_folder" value="$(find real_robot)/maps/"/>
+    <param name="mapdir" value="$(arg map_folder)" />
+    <node pkg="real_robot" type="moving.py" name="moving" output="screen">
+    </node>
 </launch>
