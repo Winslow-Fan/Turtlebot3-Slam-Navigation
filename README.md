@@ -20,6 +20,9 @@ To let it move, run:
 rosrun real_robot moving.py
 ```
 
+*update log*
+v3.2 the coordinates are determined by the initial yaw angle.
+v4.0 the map saving function is embedded in the moving.py, in shutdownhook()
 
 **Not complete yet**
 
