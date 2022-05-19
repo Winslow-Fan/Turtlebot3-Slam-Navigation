@@ -1,0 +1,8 @@
+prefix=/home/winslow/catkin_ws/install
+
+Name: com2009_msgs
+Description: Description of com2009_msgs
+Version: 0.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib 
+Requires: rospy message_runtime

@@ -1,0 +1,1 @@
+/home/winslow/catkin_ws/devel/.private/com2009_examples/share/com2009_examples/cmake/com2009_examplesConfig-version.cmake

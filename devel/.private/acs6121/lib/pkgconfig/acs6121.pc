@@ -1,0 +1,8 @@
+prefix=/home/winslow/catkin_ws/devel/.private/acs6121
+
+Name: acs6121
+Description: Description of acs6121
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

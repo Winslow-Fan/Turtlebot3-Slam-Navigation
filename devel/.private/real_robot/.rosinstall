@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/winslow/catkin_ws/devel/.private/real_robot/setup.sh

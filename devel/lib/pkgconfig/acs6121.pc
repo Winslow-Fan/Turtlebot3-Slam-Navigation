@@ -1,0 +1,1 @@
+/home/winslow/catkin_ws/devel/.private/acs6121/lib/pkgconfig/acs6121.pc

@@ -1,0 +1,8 @@
+prefix=/home/winslow/catkin_ws/devel/.private/acs6121_team13
+
+Name: acs6121_team13
+Description: Description of acs6121_team13
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
