@@ -66,7 +66,8 @@ class MoveBaseSquare():
         
         # First define the corner orientations as Euler angles
         euler_angles = list()
-        euler_angles = [self.theta_z0+1.6,self.theta_z0+1.6, self.theta_z0+3, self.theta_z0, self.theta_z0, 0, 0, 0, 0]
+        euler_angles = [self.theta_z0+1.6,self.theta_z0+1.6,self.theta_z0+1.2, self.theta_z0-1.6, self.theta_z0, self.theta_z0]
+        # euler_angles = [self.theta_z0+1.6,self.theta_z0+1.6, self.theta_z0+3, self.theta_z0, self.theta_z0, 0, 0, 0, 0]
         for i, angle in enumerate(euler_angles):
             if angle > pi:
                 euler_angles[i] -= 2*pi
@@ -87,10 +88,11 @@ class MoveBaseSquare():
         # is a pose consisting of a position and orientation in the map frame.
 
         self.waypoints.append(Pose(Point(self.x0+cos(self.theta_z0), self.y0+sin(self.theta_z0), 0), quaternions[0]))
-        self.waypoints.append(Pose(Point(self.x0+cos(self.theta_z0)-sin(self.theta_z0), self.y0+sin(self.theta_z0)+cos(self.theta_z0), 0), quaternions[1]))
-        self.waypoints.append(Pose(Point(self.x0-cos(self.theta_z0)-sin(self.theta_z0), self.y0-sin(self.theta_z0)+cos(self.theta_z0), 0), quaternions[2]))
-        self.waypoints.append(Pose(Point(self.x0-cos(self.theta_z0)+sin(self.theta_z0), self.y0-sin(self.theta_z0)-cos(self.theta_z0), 0), quaternions[3]))
-        self.waypoints.append(Pose(Point(self.x0+cos(self.theta_z0)+sin(self.theta_z0), self.y0+sin(self.theta_z0)-cos(self.theta_z0), 0), quaternions[4]))
+        self.waypoints.append(Pose(Point(self.x0+cos(self.theta_z0), self.y0+sin(self.theta_z0), 0), quaternions[1]))
+        self.waypoints.append(Pose(Point(self.x0+cos(self.theta_z0)-sin(self.theta_z0), self.y0+sin(self.theta_z0)+cos(self.theta_z0), 0), quaternions[2]))
+        self.waypoints.append(Pose(Point(self.x0-cos(self.theta_z0)-sin(self.theta_z0), self.y0-sin(self.theta_z0)+cos(self.theta_z0), 0), quaternions[3]))
+        self.waypoints.append(Pose(Point(self.x0-cos(self.theta_z0)+sin(self.theta_z0), self.y0-sin(self.theta_z0)-cos(self.theta_z0), 0), quaternions[4]))
+        self.waypoints.append(Pose(Point(self.x0+cos(self.theta_z0)+sin(self.theta_z0), self.y0+sin(self.theta_z0)-cos(self.theta_z0), 0), quaternions[5]))
 
         
         # Initialize the visualization markers for RViz
