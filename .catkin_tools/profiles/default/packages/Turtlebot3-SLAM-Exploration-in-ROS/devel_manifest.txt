@@ -1,5 +1,0 @@
-Turtlebot3-SLAM-Exploration-in-ROS
-/home/winslow/catkin_ws/devel/.private/Turtlebot3-SLAM-Exploration-in-ROS/cmake.lock /home/winslow/catkin_ws/devel/./cmake.lock
-/home/winslow/catkin_ws/devel/.private/Turtlebot3-SLAM-Exploration-in-ROS/share/Turtlebot3-SLAM-Exploration-in-ROS/cmake/Turtlebot3-SLAM-Exploration-in-ROSConfig.cmake /home/winslow/catkin_ws/devel/share/Turtlebot3-SLAM-Exploration-in-ROS/cmake/Turtlebot3-SLAM-Exploration-in-ROSConfig.cmake
-/home/winslow/catkin_ws/devel/.private/Turtlebot3-SLAM-Exploration-in-ROS/share/Turtlebot3-SLAM-Exploration-in-ROS/cmake/Turtlebot3-SLAM-Exploration-in-ROSConfig-version.cmake /home/winslow/catkin_ws/devel/share/Turtlebot3-SLAM-Exploration-in-ROS/cmake/Turtlebot3-SLAM-Exploration-in-ROSConfig-version.cmake
-/home/winslow/catkin_ws/devel/.private/Turtlebot3-SLAM-Exploration-in-ROS/lib/pkgconfig/Turtlebot3-SLAM-Exploration-in-ROS.pc /home/winslow/catkin_ws/devel/lib/pkgconfig/Turtlebot3-SLAM-Exploration-in-ROS.pc

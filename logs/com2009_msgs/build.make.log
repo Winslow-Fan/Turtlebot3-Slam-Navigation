@@ -1,35 +1,168 @@
-[  0%] Built target _com2009_msgs_generate_messages_check_deps_CameraSweepActionGoal
+[35m[1mScanning dependencies of target _com2009_msgs_generate_messages_check_deps_SetBool[0m
+[35m[1mScanning dependencies of target _com2009_msgs_generate_messages_check_deps_CameraSweepActionGoal[0m
+[35m[1mScanning dependencies of target _com2009_msgs_generate_messages_check_deps_SearchResult[0m
 [  0%] Built target _com2009_msgs_generate_messages_check_deps_SetBool
+[35m[1mScanning dependencies of target _com2009_msgs_generate_messages_check_deps_NumpyInt32Array[0m
+[  0%] Built target _com2009_msgs_generate_messages_check_deps_CameraSweepActionGoal
+[35m[1mScanning dependencies of target _com2009_msgs_generate_messages_check_deps_CameraSweepGoal[0m
 [  0%] Built target _com2009_msgs_generate_messages_check_deps_SearchResult
-[  0%] Built target _com2009_msgs_generate_messages_check_deps_NumpyInt32Array
+[35m[1mScanning dependencies of target std_msgs_generate_messages_cpp[0m
 [  0%] Built target std_msgs_generate_messages_cpp
-[  0%] Built target actionlib_msgs_generate_messages_cpp
+[  0%] Built target _com2009_msgs_generate_messages_check_deps_NumpyInt32Array
+[35m[1mScanning dependencies of target _com2009_msgs_generate_messages_check_deps_Approach[0m
+[35m[1mScanning dependencies of target actionlib_msgs_generate_messages_cpp[0m
 [  0%] Built target _com2009_msgs_generate_messages_check_deps_CameraSweepGoal
+[  0%] Built target actionlib_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target _com2009_msgs_generate_messages_check_deps_NumpyFloat32Array[0m
+[35m[1mScanning dependencies of target _com2009_msgs_generate_messages_check_deps_CameraSweepAction[0m
+[35m[1mScanning dependencies of target _com2009_msgs_generate_messages_check_deps_CameraSweepFeedback[0m
+[  0%] Built target _com2009_msgs_generate_messages_check_deps_CameraSweepAction
 [  0%] Built target _com2009_msgs_generate_messages_check_deps_Approach
 [  0%] Built target _com2009_msgs_generate_messages_check_deps_NumpyFloat32Array
+[35m[1mScanning dependencies of target _com2009_msgs_generate_messages_check_deps_CameraSweepActionResult[0m
 [  0%] Built target _com2009_msgs_generate_messages_check_deps_CameraSweepFeedback
-[  0%] Built target _com2009_msgs_generate_messages_check_deps_CameraSweepAction
-[  0%] Built target _com2009_msgs_generate_messages_check_deps_CameraSweepActionResult
-[  0%] Built target _com2009_msgs_generate_messages_check_deps_CameraSweepActionFeedback
+[35m[1mScanning dependencies of target _com2009_msgs_generate_messages_check_deps_CameraSweepActionFeedback[0m
+[35m[1mScanning dependencies of target _com2009_msgs_generate_messages_check_deps_CameraSweepResult[0m
+[35m[1mScanning dependencies of target _com2009_msgs_generate_messages_check_deps_SearchAction[0m
 [  0%] Built target _com2009_msgs_generate_messages_check_deps_CameraSweepResult
+[35m[1mScanning dependencies of target _com2009_msgs_generate_messages_check_deps_SearchActionGoal[0m
+[  0%] Built target _com2009_msgs_generate_messages_check_deps_CameraSweepActionFeedback
+[  0%] Built target _com2009_msgs_generate_messages_check_deps_CameraSweepActionResult
+[35m[1mScanning dependencies of target _com2009_msgs_generate_messages_check_deps_SearchActionResult[0m
 [  0%] Built target _com2009_msgs_generate_messages_check_deps_SearchAction
+[35m[1mScanning dependencies of target _com2009_msgs_generate_messages_check_deps_TimedMovement[0m
+[35m[1mScanning dependencies of target _com2009_msgs_generate_messages_check_deps_SearchActionFeedback[0m
 [  0%] Built target _com2009_msgs_generate_messages_check_deps_SearchActionGoal
-[  0%] Built target _com2009_msgs_generate_messages_check_deps_TimedMovement
+[35m[1mScanning dependencies of target _com2009_msgs_generate_messages_check_deps_SearchGoal[0m
 [  0%] Built target _com2009_msgs_generate_messages_check_deps_SearchActionResult
 [  0%] Built target _com2009_msgs_generate_messages_check_deps_SearchActionFeedback
+[  0%] Built target _com2009_msgs_generate_messages_check_deps_TimedMovement
+[35m[1mScanning dependencies of target _com2009_msgs_generate_messages_check_deps_SearchFeedback[0m
+[35m[1mScanning dependencies of target actionlib_msgs_generate_messages_py[0m
+[35m[1mScanning dependencies of target std_msgs_generate_messages_py[0m
 [  0%] Built target std_msgs_generate_messages_py
 [  0%] Built target actionlib_msgs_generate_messages_py
+[  0%] Built target _com2009_msgs_generate_messages_check_deps_SearchGoal
+[35m[1mScanning dependencies of target actionlib_msgs_generate_messages_lisp[0m
+[35m[1mScanning dependencies of target std_msgs_generate_messages_lisp[0m
+[35m[1mScanning dependencies of target actionlib_msgs_generate_messages_eus[0m
 [  0%] Built target actionlib_msgs_generate_messages_lisp
 [  0%] Built target std_msgs_generate_messages_lisp
-[  0%] Built target _com2009_msgs_generate_messages_check_deps_SearchGoal
-[  0%] Built target _com2009_msgs_generate_messages_check_deps_SearchFeedback
 [  0%] Built target actionlib_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target std_msgs_generate_messages_eus[0m
+[35m[1mScanning dependencies of target std_msgs_generate_messages_nodejs[0m
 [  0%] Built target std_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target actionlib_msgs_generate_messages_nodejs[0m
+[  0%] Built target _com2009_msgs_generate_messages_check_deps_SearchFeedback
 [  0%] Built target actionlib_msgs_generate_messages_nodejs
 [  0%] Built target std_msgs_generate_messages_nodejs
-[ 18%] Built target com2009_msgs_generate_messages_cpp
-[ 40%] Built target com2009_msgs_generate_messages_py
-[ 59%] Built target com2009_msgs_generate_messages_lisp
-[ 80%] Built target com2009_msgs_generate_messages_eus
-[100%] Built target com2009_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target com2009_msgs_generate_messages_cpp[0m
+[35m[1mScanning dependencies of target com2009_msgs_generate_messages_py[0m
+[  0%] [34m[1mGenerating C++ code from com2009_msgs/NumpyInt32Array.msg[0m
+[35m[1mScanning dependencies of target com2009_msgs_generate_messages_eus[0m
+[35m[1mScanning dependencies of target com2009_msgs_generate_messages_lisp[0m
+[  1%] [34m[1mGenerating Python from MSG com2009_msgs/NumpyInt32Array[0m
+[  2%] [34m[1mGenerating Lisp code from com2009_msgs/NumpyInt32Array.msg[0m
+[  3%] [34m[1mGenerating EusLisp code from com2009_msgs/NumpyInt32Array.msg[0m
+[  4%] [34m[1mGenerating Lisp code from com2009_msgs/NumpyFloat32Array.msg[0m
+[  5%] [34m[1mGenerating Lisp code from com2009_msgs/CameraSweepAction.msg[0m
+[  6%] [34m[1mGenerating EusLisp code from com2009_msgs/NumpyFloat32Array.msg[0m
+[  7%] [34m[1mGenerating Python from MSG com2009_msgs/NumpyFloat32Array[0m
+[  8%] [34m[1mGenerating Lisp code from com2009_msgs/CameraSweepActionGoal.msg[0m
+[  9%] [34m[1mGenerating C++ code from com2009_msgs/NumpyFloat32Array.msg[0m
+[ 10%] [34m[1mGenerating Lisp code from com2009_msgs/CameraSweepActionResult.msg[0m
+[ 11%] [34m[1mGenerating EusLisp code from com2009_msgs/CameraSweepAction.msg[0m
+[ 13%] [34m[1mGenerating Python from MSG com2009_msgs/CameraSweepAction[0m
+[ 14%] [34m[1mGenerating Lisp code from com2009_msgs/CameraSweepActionFeedback.msg[0m
+[ 15%] [34m[1mGenerating EusLisp code from com2009_msgs/CameraSweepActionGoal.msg[0m
+[ 16%] [34m[1mGenerating C++ code from com2009_msgs/CameraSweepAction.msg[0m
+[ 17%] [34m[1mGenerating Lisp code from com2009_msgs/CameraSweepGoal.msg[0m
+[ 18%] [34m[1mGenerating EusLisp code from com2009_msgs/CameraSweepActionResult.msg[0m
+[ 19%] [34m[1mGenerating C++ code from com2009_msgs/CameraSweepActionGoal.msg[0m
+[ 20%] [34m[1mGenerating Lisp code from com2009_msgs/CameraSweepResult.msg[0m
+[ 21%] [34m[1mGenerating Python from MSG com2009_msgs/CameraSweepActionGoal[0m
+[ 22%] [34m[1mGenerating Lisp code from com2009_msgs/CameraSweepFeedback.msg[0m
+[ 23%] [34m[1mGenerating EusLisp code from com2009_msgs/CameraSweepActionFeedback.msg[0m
+[ 25%] [34m[1mGenerating Lisp code from com2009_msgs/SearchAction.msg[0m
+[ 26%] [34m[1mGenerating C++ code from com2009_msgs/CameraSweepActionResult.msg[0m
+[ 27%] [34m[1mGenerating Lisp code from com2009_msgs/SearchActionGoal.msg[0m
+[ 28%] [34m[1mGenerating EusLisp code from com2009_msgs/CameraSweepGoal.msg[0m
+[ 29%] [34m[1mGenerating Python from MSG com2009_msgs/CameraSweepActionResult[0m
+[ 30%] [34m[1mGenerating Lisp code from com2009_msgs/SearchActionResult.msg[0m
+[ 31%] [34m[1mGenerating C++ code from com2009_msgs/CameraSweepActionFeedback.msg[0m
+[ 32%] [34m[1mGenerating EusLisp code from com2009_msgs/CameraSweepResult.msg[0m
+[ 33%] [34m[1mGenerating Lisp code from com2009_msgs/SearchActionFeedback.msg[0m
+[ 34%] [34m[1mGenerating Lisp code from com2009_msgs/SearchGoal.msg[0m
+[ 35%] [34m[1mGenerating EusLisp code from com2009_msgs/CameraSweepFeedback.msg[0m
+[ 36%] [34m[1mGenerating Python from MSG com2009_msgs/CameraSweepActionFeedback[0m
+[ 38%] [34m[1mGenerating C++ code from com2009_msgs/CameraSweepGoal.msg[0m
+[ 38%] [34m[1mGenerating Lisp code from com2009_msgs/SearchResult.msg[0m
+[ 39%] [34m[1mGenerating Lisp code from com2009_msgs/SearchFeedback.msg[0m
+[ 40%] [34m[1mGenerating EusLisp code from com2009_msgs/SearchAction.msg[0m
+[ 41%] [34m[1mGenerating C++ code from com2009_msgs/CameraSweepResult.msg[0m
+[ 42%] [34m[1mGenerating Lisp code from com2009_msgs/SetBool.srv[0m
+[ 43%] [34m[1mGenerating Python from MSG com2009_msgs/CameraSweepGoal[0m
+[ 44%] [34m[1mGenerating EusLisp code from com2009_msgs/SearchActionGoal.msg[0m
+[ 45%] [34m[1mGenerating Lisp code from com2009_msgs/TimedMovement.srv[0m
+[ 46%] [34m[1mGenerating Lisp code from com2009_msgs/Approach.srv[0m
+[ 47%] [34m[1mGenerating C++ code from com2009_msgs/CameraSweepFeedback.msg[0m
+[ 47%] Built target com2009_msgs_generate_messages_lisp
+[ 48%] [34m[1mGenerating EusLisp code from com2009_msgs/SearchActionResult.msg[0m
+[ 50%] [34m[1mGenerating Python from MSG com2009_msgs/CameraSweepResult[0m
+[35m[1mScanning dependencies of target com2009_msgs_generate_messages_nodejs[0m
+[ 51%] [34m[1mGenerating Javascript code from com2009_msgs/NumpyInt32Array.msg[0m
+[ 52%] [34m[1mGenerating C++ code from com2009_msgs/SearchAction.msg[0m
+[ 53%] [34m[1mGenerating EusLisp code from com2009_msgs/SearchActionFeedback.msg[0m
+[ 54%] [34m[1mGenerating Javascript code from com2009_msgs/NumpyFloat32Array.msg[0m
+[ 55%] [34m[1mGenerating Python from MSG com2009_msgs/CameraSweepFeedback[0m
+[ 56%] [34m[1mGenerating EusLisp code from com2009_msgs/SearchGoal.msg[0m
+[ 57%] [34m[1mGenerating C++ code from com2009_msgs/SearchActionGoal.msg[0m
+[ 58%] [34m[1mGenerating Javascript code from com2009_msgs/CameraSweepAction.msg[0m
+[ 59%] [34m[1mGenerating Javascript code from com2009_msgs/CameraSweepActionGoal.msg[0m
+[ 60%] [34m[1mGenerating EusLisp code from com2009_msgs/SearchResult.msg[0m
+[ 61%] [34m[1mGenerating C++ code from com2009_msgs/SearchActionResult.msg[0m
+[ 63%] [34m[1mGenerating Javascript code from com2009_msgs/CameraSweepActionResult.msg[0m
+[ 64%] [34m[1mGenerating Python from MSG com2009_msgs/SearchAction[0m
+[ 65%] [34m[1mGenerating Javascript code from com2009_msgs/CameraSweepActionFeedback.msg[0m
+[ 66%] [34m[1mGenerating EusLisp code from com2009_msgs/SearchFeedback.msg[0m
+[ 67%] [34m[1mGenerating Javascript code from com2009_msgs/CameraSweepGoal.msg[0m
+[ 68%] [34m[1mGenerating C++ code from com2009_msgs/SearchActionFeedback.msg[0m
+[ 68%] [34m[1mGenerating EusLisp code from com2009_msgs/SetBool.srv[0m
+[ 69%] [34m[1mGenerating Javascript code from com2009_msgs/CameraSweepResult.msg[0m
+[ 70%] [34m[1mGenerating Python from MSG com2009_msgs/SearchActionGoal[0m
+[ 71%] [34m[1mGenerating Javascript code from com2009_msgs/CameraSweepFeedback.msg[0m
+[ 72%] [34m[1mGenerating EusLisp code from com2009_msgs/TimedMovement.srv[0m
+[ 73%] [34m[1mGenerating C++ code from com2009_msgs/SearchGoal.msg[0m
+[ 75%] [34m[1mGenerating Javascript code from com2009_msgs/SearchAction.msg[0m
+[ 76%] [34m[1mGenerating EusLisp code from com2009_msgs/Approach.srv[0m
+[ 76%] [34m[1mGenerating Python from MSG com2009_msgs/SearchActionResult[0m
+[ 77%] [34m[1mGenerating C++ code from com2009_msgs/SearchResult.msg[0m
+[ 78%] [34m[1mGenerating Javascript code from com2009_msgs/SearchActionGoal.msg[0m
+[ 79%] [34m[1mGenerating EusLisp manifest code for com2009_msgs[0m
+[ 80%] [34m[1mGenerating Javascript code from com2009_msgs/SearchActionResult.msg[0m
+[ 80%] [34m[1mGenerating Javascript code from com2009_msgs/SearchActionFeedback.msg[0m
+[ 81%] [34m[1mGenerating Python from MSG com2009_msgs/SearchActionFeedback[0m
+[ 82%] [34m[1mGenerating C++ code from com2009_msgs/SearchFeedback.msg[0m
+[ 83%] [34m[1mGenerating Javascript code from com2009_msgs/SearchGoal.msg[0m
+[ 84%] [34m[1mGenerating Python from MSG com2009_msgs/SearchGoal[0m
+[ 85%] [34m[1mGenerating Javascript code from com2009_msgs/SearchResult.msg[0m
+[ 86%] [34m[1mGenerating C++ code from com2009_msgs/SetBool.srv[0m
+[ 88%] [34m[1mGenerating Javascript code from com2009_msgs/SearchFeedback.msg[0m
+[ 89%] [34m[1mGenerating Python from MSG com2009_msgs/SearchResult[0m
+[ 90%] [34m[1mGenerating Javascript code from com2009_msgs/SetBool.srv[0m
+[ 91%] [34m[1mGenerating Javascript code from com2009_msgs/TimedMovement.srv[0m
+[ 92%] [34m[1mGenerating Javascript code from com2009_msgs/Approach.srv[0m
+[ 92%] Built target com2009_msgs_generate_messages_eus
+[ 93%] [34m[1mGenerating Python from MSG com2009_msgs/SearchFeedback[0m
+[ 94%] [34m[1mGenerating C++ code from com2009_msgs/Approach.srv[0m
+[ 94%] [34m[1mGenerating C++ code from com2009_msgs/TimedMovement.srv[0m
+[ 94%] Built target com2009_msgs_generate_messages_nodejs
+[ 95%] [34m[1mGenerating Python code from SRV com2009_msgs/SetBool[0m
+[ 96%] [34m[1mGenerating Python code from SRV com2009_msgs/TimedMovement[0m
+[ 97%] [34m[1mGenerating Python code from SRV com2009_msgs/Approach[0m
+[ 97%] Built target com2009_msgs_generate_messages_cpp
+[ 98%] [34m[1mGenerating Python msg __init__.py for com2009_msgs[0m
+[100%] [34m[1mGenerating Python srv __init__.py for com2009_msgs[0m
+[100%] Built target com2009_msgs_generate_messages_py
+[35m[1mScanning dependencies of target com2009_msgs_generate_messages[0m
 [100%] Built target com2009_msgs_generate_messages
