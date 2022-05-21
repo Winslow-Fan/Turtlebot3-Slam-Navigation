@@ -35,7 +35,7 @@
         <arg name="move_forward_only" value="$(arg move_forward_only)"/>
     </include>
 
-    <arg name="filename" value="$(find acs6121_team13)/maps/explore" />
+    <arg name="filename" value="$(find acs6121_team13)/maps/explore_map" />
     <arg name="map_folder" value="$(find acs6121_team13)/maps/"/>
     <param name="mapdir" value="$(arg map_folder)" />
     <node pkg="acs6121_team13" type="moving.py" name="moving" output="screen"/>
