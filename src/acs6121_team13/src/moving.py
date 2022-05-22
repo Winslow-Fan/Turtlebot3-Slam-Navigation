@@ -59,7 +59,7 @@ class MoveBaseSquare():
         # First define the corner orientations as Euler angles
         euler_angles = list()
         # euler_angles = [self.theta_z0+1.6,self.theta_z0+1.6,self.theta_z0+1.2, self.theta_z0-1.6, self.theta_z0, self.theta_z0]
-        euler_angles = [self.theta_z0,self.theta_z0,self.theta_z0+pi/2, self.theta_z0+pi, self.theta_z0-pi/2, self.theta_z0]
+        euler_angles = [self.theta_z0,self.theta_z0,self.theta_z0+pi/4, self.theta_z0+pi*3/4, self.theta_z0-pi/4, self.theta_z0]
 
         for i, angle in enumerate(euler_angles):
             if angle > pi:
@@ -79,7 +79,7 @@ class MoveBaseSquare():
         
         # Append each of the four waypoints to the list.  Each waypoint
         # is a pose consisting of a position and orientation in the map frame.
-        k = 1.2
+        k = 1.0
 
         self.waypoints.append(Pose(Point(self.x0+k*cos(self.theta_z0), self.y0+k*sin(self.theta_z0), 0), quaternions[0]))
         self.waypoints.append(Pose(Point(self.x0+k*cos(self.theta_z0), self.y0+k*sin(self.theta_z0), 0), quaternions[1]))
